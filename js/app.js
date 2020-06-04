@@ -10,7 +10,7 @@ let year = today.getFullYear();//Año
 
 
 var fecha = document.getElementById('fecha');//Obtiene el elemento H1 con id = fecha
-fecha.innerHTML =`${weekDay}, ${monthDay} ${monthName} ${yea}`;//Agregamos código HTML a la variable fecha, se reflejará en el H1
+fecha.innerHTML =`${weekDay}, ${monthDay} ${monthName} ${year}`;//Agregamos código HTML a la variable fecha, se reflejará en el H1
 
 var inputTarea = document.getElementById('inputTarea');
 var btnAdd = document.getElementById('btnAdd');
